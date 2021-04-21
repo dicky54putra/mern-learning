@@ -10,59 +10,63 @@ export default function Button(props) {
     if (props.isLarge) className.push("btn-lg")
     if (props.isSmall) className.push("btn-sm")
     if (props.hasShadow) className.push("btn-shadow")
-    
+
     if (props.isDisabled || props.isLoading) {
         if (props.isDisabled) className.push("disabled")
-        return (<span  className={className.join(" ")} 
-        style={props.style} >{
-            props.isLoading?(<>
-            <span className="spinner-border spinner-border-sm mx-5"></span>
-            <span className="sr-only">Loading...</span>
-            </>):(props.children)
+        return (<span className={className.join(" ")}
+            style={props.style} >{
+                props.isLoading ? (<>
+                    <span className="spinner-border spinner-border-sm mx-5"></span>
+                    <span className="sr-only">Loading...</span>
+                </>) : (props.children)
             }</span>)
     }
-    
+
     const onClick = () => {
         if (props.onClick) props.onClick()
     }
 
-    if(props.type === "link"){
+    const targetValue = props.target === "_blank" ? "_blank" : undefined
+
+    if (props.type === "link") {
         if (props.isExternal) {
             return (
-                <a 
-                href={props.href} 
-                className={className.join(" ")} 
-                style={props.style} 
-                target={props.target === "_blank" ? "_blank":undefined} 
-                ref={props.target ==="_blank"? "noopener noreferrer":undefined}
+                <a
+                    href={props.href}
+                    className={className.join(" ")}
+                    style={props.style}
+                    target={targetValue}
+                    rel={props.target === "_blank" ? "noopener noreferrer" : undefined}
                 >
                     {props.children}
                 </a>
             )
-        }else{
-            return(
+        } else {
+            return (
                 <Link
-                to={props.href} 
-                className={className.join(" ")} 
-                style={props.style} 
-                onClick={onClick}
+                    to={props.href}
+                    className={className.join(" ")}
+                    style={props.style}
+                    onClick={onClick}
                 >
-                {props.children}
+                    {props.children}
                 </Link>
             )
         }
     }
     return (
         <button
-        className={className.join(" ")} 
-        style={props.style} 
-        onClick={onClick}>{props.children}</button>
+            className={className.join(" ")}
+            style={props.style}
+            onClick={onClick}>
+            {props.children}
+        </button>
     )
 }
 
 Button.propTypes = {
     type: propTypes.oneOf(["button", "link"]),
-    onClick:propTypes.func,
+    onClick: propTypes.func,
     target: propTypes.string,
     className: propTypes.string,
     href: propTypes.string,
