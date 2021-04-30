@@ -3,9 +3,6 @@ import Fade from 'react-reveal/Fade';
 
 import ImageHero from 'assets/images/img-hero.jpg';
 import ImageHero_ from 'assets/images/img-hero-frame.jpg';
-import iconTraveler from 'assets/images/icons/icon-traveler.svg';
-import iconCities from 'assets/images/icons/icon-cities.svg';
-import iconTreasure from 'assets/images/icons/icon-treasure.svg';
 
 import Button from 'elements/Button';
 import numberFormat from 'utils/formatNumber';
@@ -31,16 +28,14 @@ export default function Hero(props) {
                             We provide what you need to enjoy your holiday with family. Time to
                             make another memorable moments.
                     </p>
-                        <Button className="btn px-5" hasShadow isPrimary onClick={showMostPicked}>
-                            Show Me Now
-                    </Button>
+                        <Button className="btn px-5" hasShadow isPrimary onClick={showMostPicked}> Show Me Now </Button>
 
                         <div className="row" style={{ marginTop: 80 }}>
                             <div className="col-auto" style={{ marginRight: 35 }}>
                                 <img
                                     width="36"
                                     height="36"
-                                    src={iconTraveler}
+                                    src="/images/icons/icon-traveler.svg"
                                     alt={`${props.data.travelers} travelers`} />
                                 <h6 className="mt-3">
                                     {numberFormat(props.data.travelers)} <span className="text-gray-500 font-weight-light">travelers</span>
@@ -50,7 +45,7 @@ export default function Hero(props) {
                                 <img
                                     width="36"
                                     height="36"
-                                    src={iconTreasure}
+                                    src="/images/icons/icon-cities.svg"
                                     alt={`${props.data.treasures} treasures`} />
                                 <h6 className="mt-3">
                                     {numberFormat(props.data.treasures)} <span className="text-gray-500 font-weight-light">treasures</span>
@@ -60,7 +55,7 @@ export default function Hero(props) {
                                 <img
                                     width="36"
                                     height="36"
-                                    src={iconCities}
+                                    src="/images/icons/icon-treasure.svg"
                                     alt={`${props.data.cities} cities`} />
                                 <h6 className="mt-3">
                                     {numberFormat(props.data.cities)} <span className="text-gray-500 font-weight-light">cities</span>
