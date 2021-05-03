@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Breadcrumb from 'elements/Breadcrumb'
+import InputDate from 'elements/Form/InputDate'
 
 export default class Example extends Component {
     state = {
@@ -24,7 +24,12 @@ export default class Example extends Component {
             <div className="container">
                 <div className="row align-items-center justify-content-center" style={{ height: "100vh" }}>
                     <div className="col-auto">
-                    <Breadcrumb data={breadcrumbList} className={`breadcrumb`} />
+                    <InputDate
+                        max={30}
+                        onChange={this.handleChange}
+                        name="value"
+                        value={this.state.value}
+                    />
                     </div>
                 </div>
             </div>
