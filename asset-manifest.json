@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mern-learning/static/css/main.7c2f9a3d.chunk.css",
-    "main.js": "/mern-learning/static/js/main.3c8af8c4.chunk.js",
-    "main.js.map": "/mern-learning/static/js/main.3c8af8c4.chunk.js.map",
+    "main.js": "/mern-learning/static/js/main.e7e99d36.chunk.js",
+    "main.js.map": "/mern-learning/static/js/main.e7e99d36.chunk.js.map",
     "runtime-main.js": "/mern-learning/static/js/runtime-main.e85d081b.js",
     "runtime-main.js.map": "/mern-learning/static/js/runtime-main.e85d081b.js.map",
     "static/css/2.06382735.chunk.css": "/mern-learning/static/css/2.06382735.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.06382735.chunk.css",
     "static/js/2.385e7294.chunk.js",
     "static/css/main.7c2f9a3d.chunk.css",
-    "static/js/main.3c8af8c4.chunk.js"
+    "static/js/main.e7e99d36.chunk.js"
   ]
 }
