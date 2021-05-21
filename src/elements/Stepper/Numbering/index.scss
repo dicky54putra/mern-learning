@@ -3,7 +3,7 @@
 $stepperMainColor : $gray-200;
 $size : 50px;
 
-ol.stepper{
+ol.stepper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,7 +11,7 @@ ol.stepper{
     padding: 0;
 
     li {
-        position: absolute;
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -21,7 +21,7 @@ ol.stepper{
         border-radius: $size;
         color: $white;
 
-        &:after{
+        &:after {
             position: absolute;
             content: "";
             z-index: 2;
@@ -36,9 +36,10 @@ ol.stepper{
             transition: .35s transfrom ease-in-out;
         }
 
-        &:not(:last-child){
+        &:not(:last-child) {
             margin-right: 60px;
-            &:before{
+
+            &:before {
                 content: "";
                 z-index: -2;
                 top: 50%;
@@ -50,20 +51,22 @@ ol.stepper{
             }
         }
 
-        &.active{
-            &:after{
+        &.active {
+            &:after {
                 z-index: -1;
                 background: $white;
                 border: 1px solid $stepperMainColor;
                 transform: scale(1.2);
             }
+
             background-color: $stepperMainColor;
             color: $gray-500;
 
-            &~li{
+            &~li {
                 color: $gray-500;
                 background: $stepperMainColor;
-                &:after{
+
+                &:after {
                     content: none;
                 }
             }
