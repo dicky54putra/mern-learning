@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f8c9f96.chunk.css",
-    "main.js": "/static/js/main.3454f70b.chunk.js",
-    "main.js.map": "/static/js/main.3454f70b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.367c6c17.js",
-    "runtime-main.js.map": "/static/js/runtime-main.367c6c17.js.map",
-    "static/css/2.06382735.chunk.css": "/static/css/2.06382735.chunk.css",
-    "static/js/2.385e7294.chunk.js": "/static/js/2.385e7294.chunk.js",
-    "static/js/2.385e7294.chunk.js.map": "/static/js/2.385e7294.chunk.js.map",
-    "static/js/3.5a9619c0.chunk.js": "/static/js/3.5a9619c0.chunk.js",
-    "static/js/3.5a9619c0.chunk.js.map": "/static/js/3.5a9619c0.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.06382735.chunk.css.map": "/static/css/2.06382735.chunk.css.map",
-    "static/css/main.9f8c9f96.chunk.css.map": "/static/css/main.9f8c9f96.chunk.css.map",
-    "static/js/2.385e7294.chunk.js.LICENSE.txt": "/static/js/2.385e7294.chunk.js.LICENSE.txt",
-    "static/media/completed.5a3498b3.jpg": "/static/media/completed.5a3498b3.jpg",
-    "static/media/icon-calendar.afd945d3.svg": "/static/media/icon-calendar.afd945d3.svg",
-    "static/media/img-hero.98bc257e.jpg": "/static/media/img-hero.98bc257e.jpg",
-    "static/media/index.scss": "/static/media/star.9f0d919b.svg"
+    "main.css": "/mern-learning/static/css/main.7c2f9a3d.chunk.css",
+    "main.js": "/mern-learning/static/js/main.3c8af8c4.chunk.js",
+    "main.js.map": "/mern-learning/static/js/main.3c8af8c4.chunk.js.map",
+    "runtime-main.js": "/mern-learning/static/js/runtime-main.e85d081b.js",
+    "runtime-main.js.map": "/mern-learning/static/js/runtime-main.e85d081b.js.map",
+    "static/css/2.06382735.chunk.css": "/mern-learning/static/css/2.06382735.chunk.css",
+    "static/js/2.385e7294.chunk.js": "/mern-learning/static/js/2.385e7294.chunk.js",
+    "static/js/2.385e7294.chunk.js.map": "/mern-learning/static/js/2.385e7294.chunk.js.map",
+    "static/js/3.5a9619c0.chunk.js": "/mern-learning/static/js/3.5a9619c0.chunk.js",
+    "static/js/3.5a9619c0.chunk.js.map": "/mern-learning/static/js/3.5a9619c0.chunk.js.map",
+    "index.html": "/mern-learning/index.html",
+    "static/css/2.06382735.chunk.css.map": "/mern-learning/static/css/2.06382735.chunk.css.map",
+    "static/css/main.7c2f9a3d.chunk.css.map": "/mern-learning/static/css/main.7c2f9a3d.chunk.css.map",
+    "static/js/2.385e7294.chunk.js.LICENSE.txt": "/mern-learning/static/js/2.385e7294.chunk.js.LICENSE.txt",
+    "static/media/completed.5a3498b3.jpg": "/mern-learning/static/media/completed.5a3498b3.jpg",
+    "static/media/icon-calendar.afd945d3.svg": "/mern-learning/static/media/icon-calendar.afd945d3.svg",
+    "static/media/img-hero.98bc257e.jpg": "/mern-learning/static/media/img-hero.98bc257e.jpg",
+    "static/media/index.scss": "/mern-learning/static/media/star.9f0d919b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.367c6c17.js",
+    "static/js/runtime-main.e85d081b.js",
     "static/css/2.06382735.chunk.css",
     "static/js/2.385e7294.chunk.js",
-    "static/css/main.9f8c9f96.chunk.css",
-    "static/js/main.3454f70b.chunk.js"
+    "static/css/main.7c2f9a3d.chunk.css",
+    "static/js/main.3c8af8c4.chunk.js"
   ]
 }
