@@ -13,6 +13,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={LandingPage}></Route>
+          <Route exact path="/mern-learning" component={LandingPage}></Route>
           <Route exact path="/properties/:id" component={DetailsPage}></Route>
           <Route path="/example" component={Example}></Route>
           <Route path="/checkout" component={Checkout}></Route>
