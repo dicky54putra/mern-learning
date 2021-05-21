@@ -35,7 +35,7 @@ export default function Hero(props) {
                                 <img
                                     width="36"
                                     height="36"
-                                    src="/images/icons/icon-traveler.svg"
+                                    src="/mern-learning/images/icons/icon-traveler.svg"
                                     alt={`${props.data.travelers} travelers`} />
                                 <h6 className="mt-3">
                                     {numberFormat(props.data.travelers)} <span className="text-gray-500 font-weight-light">travelers</span>
@@ -45,7 +45,7 @@ export default function Hero(props) {
                                 <img
                                     width="36"
                                     height="36"
-                                    src="/images/icons/icon-cities.svg"
+                                    src="/mern-learning/images/icons/icon-cities.svg"
                                     alt={`${props.data.treasures} treasures`} />
                                 <h6 className="mt-3">
                                     {numberFormat(props.data.treasures)} <span className="text-gray-500 font-weight-light">treasures</span>
@@ -55,7 +55,7 @@ export default function Hero(props) {
                                 <img
                                     width="36"
                                     height="36"
-                                    src="/images/icons/icon-treasure.svg"
+                                    src="/mern-learning/images/icons/icon-treasure.svg"
                                     alt={`${props.data.cities} cities`} />
                                 <h6 className="mt-3">
                                     {numberFormat(props.data.cities)} <span className="text-gray-500 font-weight-light">cities</span>
